@@ -13,7 +13,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>
+						 	<mainClass>
 								random.App
 							</mainClass>
 						</manifest>
