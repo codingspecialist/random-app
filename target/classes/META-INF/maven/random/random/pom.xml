@@ -12,7 +12,16 @@
         <configuration>
           <source>1.8</source>
           <target>1.8</target>
-          <mainClass>random.App</mainClass>
+          
+          <archive> 
+          	<manifest> 
+	          	<mainClass>random.App</mainClass> 
+	          	<addClasspath>true</addClasspath> 
+	          	<classpathPrefix>libs/</classpathPrefix> 
+          	</manifest> 
+          </archive>
+
+
         </configuration>
       </plugin>
     </plugins>
